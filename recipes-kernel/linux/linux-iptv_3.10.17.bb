@@ -7,7 +7,7 @@ require recipes-kernel/linux/linux-dtb.inc
 
 #PROVIDES = ""
 
-SRC_URI = "git://github.com/embest-tech/linux-imx.git"
+SRC_URI = "git@gitlab.com:embest-tech/linux-imx.git"
 
 SRCBRANCH = "iptv_imx_3.10.17_1.0.0_ga"
 SRCREV = "${SRCBRANCH}"
